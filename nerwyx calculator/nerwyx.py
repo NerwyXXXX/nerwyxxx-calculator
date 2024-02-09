@@ -33,10 +33,10 @@ tlacitka = [
     ["C"]
 ]
 
-for radek in tlacitka:
+for nerwyx in tlacitka:
     frame = Frame(okno)
     frame.pack()
-    for symbol in radek:
+    for symbol in nerwyx:
         button = Button(frame, text=symbol, width=5, height=2)
         button.pack(side=LEFT)
         if symbol == "=":
